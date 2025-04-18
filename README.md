@@ -1,21 +1,33 @@
-A simple console-based banking application built in Java that demonstrates the use of Object-Oriented Programming (OOP) principles. This project allows users to perform basic banking operations such as checking balance, depositing funds, withdrawing funds, and viewing previous transactions.
+**Java Banking Application**
 
-**Program Structure**
-BankingApplication.java
-BankAccount class
+**Overview**
+This is a simple console-based banking application written in Java that simulates basic banking operations. The application allows users to create a bank account, check their balance, make deposits and withdrawals, and view their transaction history.
 
-Fields: balance, previousTransaction, customerName, customerId
+**Features**
+- Account balance inquiry
+- Deposit funds
+- Withdraw funds
+- View previous transaction details
+- User-friendly console interface
 
-Methods:
+**Technologies Used**
+- Java
+- Scanner class for user input
 
-deposit(int amount)
+**Prerequisites
+**- Java Development Kit (JDK) 8 or higher
+- Any Java IDE (Eclipse, IntelliJ IDEA, etc.) or command line compiler
 
-withdraw(int amount)
+**Installation and Running the Application**
+1. **Install Java Development Kit (JDK)**:
+   - [Download Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+   - [Download OpenJDK](https://adoptopenjdk.net/)
 
-getPreviousTransaction()
+2. **Set up JAVA_HOME environment variable**:
+   - [Windows Instructions](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html)
+   - [macOS Instructions](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html)
+   - [Linux Instructions](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-linux-platforms.html)
 
-showMenu(): Displays menu and handles user input
-
-main method
-
-Creates a new bank account and displays the menu.
+3. **Install an IDE (Optional but recommended)**:
+   - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - Powerful IDE with free community edition
+   - [Visual Studio Code](https://code.visualstudio.com/) with [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
